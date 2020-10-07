@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Leitor de texto</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.8.10/tailwind.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body class="text-center">
+    <div class="meio">
+        <div class="border border-purple" id="input" contenteditable oninput="setText(event)">Seu texto aqui</div>
+    </br>
+        <button onclick="speak()" class="p-4 bg-purple-200 rounded shadow">Falar</button>
+        <button onclick="stop()" class="p-4 bg-purple-700 text-white rounded shadow">Parar</button>
+    </div>
+</body>
+
+</html>

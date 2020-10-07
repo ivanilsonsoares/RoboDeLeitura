@@ -1,0 +1,23 @@
+.text-center{
+    background-color: darkslateblue;
+}
+
+.text-center .meio{
+    margin: 0 auto;
+    background: black;
+    height: 10%;
+    width: 37%;
+    margin-top: 10%;
+    padding: 4%;
+    border-radius: 10px;
+}
+.text-center .meio #input{
+    border-radius: 10px;
+    background-color: white;
+    border: darkgray;
+
+}
+
+button{
+    margin: 0 15px;
+}
